@@ -1,0 +1,53 @@
+{
+  "name": "fastify-method-not-allowed",
+  "version": "1.0.0",
+  "description": "Fastify pluging handling method not found for routes",
+  "main": "lib/index.js",
+  "types": "",
+  "scripts": {
+    "test": "npm run lint && tap -J lib/tests",
+    "lint": "semistandard | snazzy",
+    "release": "semantic-release"
+  },
+  "dependencies": {
+    "@lunjs/pathname-store": "0.0.3",
+    "fastify-plugin": "^3.0.0"
+  },
+  "files": [
+    "lib/**/*",
+    "!lib/tests/**/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "fastify": "^3.8.0",
+    "husky": "^4.3.0",
+    "nodemon": "^2.0.6",
+    "semantic-release": "^17.2.2",
+    "semistandard": "^16.0.0",
+    "snazzy": "^9.0.0",
+    "tap": "^14.10.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkampitakis/fastify-method-not-allowed.git"
+  },
+  "keywords": [
+    "fastify",
+    "fastify-plugin",
+    "router",
+    "405",
+    "method-not-allowed"
+  ],
+  "author": "Georgios Kampitakis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkampitakis/fastify-method-not-allowed/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/gkampitakis/fastify-method-not-allowed#readme"
+}
