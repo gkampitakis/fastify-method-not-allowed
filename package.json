@@ -1,6 +1,6 @@
 {
   "name": "fastify-method-not-allowed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fastify pluging handling method not allowed for routes",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
