@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Fastify pluging handling method not found for routes",
   "main": "lib/index.js",
-  "types": "",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "npm run lint && tap -J lib/tests",
     "lint": "semistandard | snazzy",
