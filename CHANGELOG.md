@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/gkampitakis/fastify-method-not-allowed/compare/v1.0.1...v1.0.2) (2020-11-15)
+
+
+### Bug Fixes
+
+* drop unused dev deps ([1a53797](https://github.com/gkampitakis/fastify-method-not-allowed/commit/1a53797ef8a6ee311ab7c0f4f58c36c8c25d9fad))
+
 ## [1.0.1](https://github.com/gkampitakis/fastify-method-not-allowed/compare/v1.0.0...v1.0.1) (2020-11-15)
 
 
