@@ -24,7 +24,7 @@
     "semantic-release": "^17.2.2",
     "semistandard": "^16.0.0",
     "snazzy": "^9.0.0",
-    "tap": "^14.10.8"
+    "tap": "^15.0.2"
   },
   "repository": {
     "type": "git",
