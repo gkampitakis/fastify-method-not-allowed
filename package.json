@@ -10,7 +10,7 @@
     "release": "semantic-release"
   },
   "dependencies": {
-    "@lunjs/pathname-store": "0.0.3",
+    "@lunjs/pathname-store": "0.1.0",
     "fastify-plugin": "^3.0.0"
   },
   "files": [
