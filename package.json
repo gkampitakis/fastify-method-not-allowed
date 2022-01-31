@@ -19,7 +19,7 @@
   ],
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/git": "^10.0.1",
     "fastify": "^3.8.0",
     "semantic-release": "^19.0.2",
     "semistandard": "^16.0.0",
