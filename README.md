@@ -1,7 +1,6 @@
 # Fastify Method Not Allowed
 
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/standard/semistandard)
-[![Build Status](https://travis-ci.com/gkampitakis/fastify-method-not-allowed.svg?branch=master)](https://travis-ci.com/gkampitakis/fastify-method-not-allowed)
 
 `fastify-method-not-allowed` is a plugin for returning **405** status code for routes instead of default **404**.
 
@@ -95,10 +94,6 @@ import methodNotAllowed from 'fastify-method-not-allowed';
 ### Note:
 
 This plugin uses the `setNotFoundHandler` handler so you won't be able to re-use this handler in your own service at least with the same `prefix`.
-
-### Changelog
-
-[CHANGELOG.md](./CHANGELOG.md)
 
 ### Issues
 
