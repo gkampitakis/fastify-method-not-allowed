@@ -1,7 +1,7 @@
 {
   "name": "fastify-method-not-allowed",
   "version": "1.0.2",
-  "description": "Fastify pluging handling method not allowed for routes",
+  "description": "Fastify plugin handling method not allowed for routes",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -18,10 +18,10 @@
     "!lib/tests/**/*"
   ],
   "devDependencies": {
-    "fastify": "^3.29.0",
+    "fastify": "^4.0.0",
     "semistandard": "^16.0.1",
     "snazzy": "^9.0.0",
-    "tap": "^16.1.0"
+    "tap": "^16.2.0"
   },
   "repository": {
     "type": "git",
